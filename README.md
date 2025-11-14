@@ -6,7 +6,7 @@ A data analysis project where I dig into over 500,000 e-commerce transactions to
 
 ## What This Project Is About
 
-I analyzed online retail data to help a business understand:
+I analysed online retail data to help a business understand:
 - **Who their customers are** and how they shop
 - **Which products make the most money** (and which don't)
 - **Where their revenue comes from** geographically
@@ -24,7 +24,7 @@ Think of this as helping an online store owner make smarter decisions with their
 - 541,909 transactions
 - Data from December 2010 to December 2011
 - 37 countries
-- 4,372 unique customers
+- 4,338 unique customers
 - 4,070 different products
 
 **The columns:**
@@ -35,6 +35,16 @@ Think of this as helping an online store owner make smarter decisions with their
 - Customer IDs
 - Countries
 
+### 📊 Getting the Data
+
+**Important:** The dataset files are not included in this repository due to GitHub's file size limits.
+
+**To run this project:**
+1. Download the original dataset from [Kaggle](https://www.kaggle.com/datasets/abhishekrp1517/online-retail-transactions-dataset)
+2. Place `online_retail.csv` in the `data/` folder
+3. Run the data cleaning cells in the notebook to create the cleaned version
+4. Alternatively, contact me for the pre-cleaned dataset
+
 ---
 
 ## Tools I Used
@@ -42,7 +52,7 @@ Think of this as helping an online store owner make smarter decisions with their
 - **Python** - For all the analysis
 - **Pandas** - To clean and work with the data
 - **Matplotlib & Seaborn** - To create charts
-- **Plotly** - For interactive visualizations
+- **Plotly** - For interactive visualisations
 - **Jupyter Notebook** - Where I did all the work
 
 ---
@@ -57,7 +67,7 @@ The raw data wasn't perfect, so I:
 - Created a "Revenue" column (Quantity × Price)
 - Saved a clean version of the data
 
-### 2. Analyzed Customer Behavior
+### 2. Analysed Customer Behaviour
 Found out:
 - How many unique customers there are
 - How often customers buy
@@ -91,7 +101,7 @@ Identified:
 Want just the highlights? Check out the **[Executive Summary](data/Summary_of_Findings_&_Business_Recommendations.md)** in the data folder for a concise overview of all findings and recommendations.
 
 ### Customer Insights
-- **4,338 customers** in total (1,493 + 2,845)
+- **4,338 customers** in total
 - Average customer buys **2.4 times**
 - Average transaction: **£17.29**
 - **65.6% are repeat customers** (34.4% bought only once)
@@ -131,7 +141,7 @@ Want just the highlights? Check out the **[Executive Summary](data/Summary_of_Fi
 **Solution:**
 - Send them an email with a discount
 - Show them products similar to what they bought
-- Create a loyalty program
+- Create a loyalty programme
 
 **Goal:** Turn one-time buyers into repeat customers.
 
@@ -154,7 +164,7 @@ Want just the highlights? Check out the **[Executive Summary](data/Summary_of_Fi
 **Problem:** Only 17% of revenue comes from outside the UK.
 
 **Solution:**
-- Run ads in Netherlands, Germany, and France
+- Run adverts in Netherlands, Germany, and France
 - Check if shipping costs are too high internationally
 - Offer international payment methods
 - Test new European markets
@@ -163,7 +173,7 @@ Want just the highlights? Check out the **[Executive Summary](data/Summary_of_Fi
 
 ---
 
-### 4. Clean Up the Product Catalog
+### 4. Clean Up the Product Catalogue
 **Problem:** Dead inventory costs money to store.
 
 **Solution:**
@@ -205,8 +215,8 @@ Here's what the data looks like visually:
 
 ### Step 1: Clone This Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/online-retail-analysis.git
-cd online-retail-analysis
+git clone https://github.com/miteshbkumar-ship-it/data_project_online_retail_transaction.git
+cd data_project_online_retail_transaction
 ```
 
 ### Step 2: Install the Libraries
@@ -216,7 +226,7 @@ pip install pandas numpy matplotlib seaborn plotly jupyter
 
 ### Step 3: Get the Dataset
 1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/abhishekrp1517/online-retail-transactions-dataset)
-2. Put the `online_retail.csv` file in the `data/` folder
+2. Place `online_retail.csv` in the `data/` folder
 
 ### Step 4: Open and Run
 ```bash
@@ -234,7 +244,7 @@ Then open `Online_Retail_Transaction_Analysis.ipynb` and run all the cells.
 online-retail-analysis/
 │
 ├── data/
-│   ├── online_retail_cleaned.csv      # Clean data (original not included - too big!)
+│   ├── online_retail_cleaned.csv      # Clean data (not included - too large!)
 │   └── Summary_of_Findings_&_Business_Recommendations.md    # Executive summary
 │
 ├── notebooks/
@@ -256,10 +266,10 @@ online-retail-analysis/
 
 This was my first data analysis project, and here's what I figured out:
 
-1. **Real data is messy** - You have to clean it before you can analyze it
+1. **Real data is messy** - You have to clean it before you can analyse it
 2. **The 80/20 rule is real** - A small portion of products really do drive most revenue
 3. **Visuals matter** - Charts make insights way easier to understand
-4. **Business questions come first** - Don't just analyze for the sake of it. Answer real questions.
+4. **Business questions come first** - Don't just analyse for the sake of it. Answer real questions.
 
 ---
 
@@ -267,7 +277,7 @@ This was my first data analysis project, and here's what I figured out:
 
 Things I could add to this project:
 - **Time series analysis** - Are there seasonal patterns? Do sales spike in December?
-- **Customer segmentation** - Group customers by behavior (big spenders vs. bargain hunters)
+- **Customer segmentation** - Group customers by behaviour (big spenders vs. bargain hunters)
 - **Predict future sales** - Use past data to forecast what might happen next
 - **Market basket analysis** - What products are bought together?
 
@@ -281,11 +291,11 @@ This is my first data analysis project! I'm learning Python, data analysis, and 
 
 - 💼 [LinkedIn](#) - *Add your link*
 - 📧 [Email](#) - *Add your email*
-- 🐙 [GitHub](#) - *Add your profile*
+- 🐙 [GitHub](https://github.com/miteshbkumar-ship-it)
 
 ---
 
-## Acknowledgments
+## Acknowledgements
 
 - Dataset from [Kaggle](https://www.kaggle.com/datasets/abhishekrp1517/online-retail-transactions-dataset)
 - Built as part of my coursework learning data analysis
@@ -293,7 +303,7 @@ This is my first data analysis project! I'm learning Python, data analysis, and 
 
 ---
 
-## License
+## Licence
 
 Feel free to use this project for learning. If you use it, a mention would be appreciated!
 
