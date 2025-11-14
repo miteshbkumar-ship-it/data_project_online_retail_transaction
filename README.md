@@ -288,9 +288,6 @@ Things I could add to this project:
 **Mitesh Kumar**
 
 This is my first data analysis project! I'm learning Python, data analysis, and how to tell stories with data.
-
-- 💼 [LinkedIn](#) - *Add your link*
-- 📧 [Email](#) - *Add your email*
 - 🐙 [GitHub](https://github.com/miteshbkumar-ship-it)
 
 ---
@@ -298,8 +295,8 @@ This is my first data analysis project! I'm learning Python, data analysis, and 
 ## Acknowledgements
 
 - Dataset from [Kaggle](https://www.kaggle.com/datasets/abhishekrp1517/online-retail-transactions-dataset)
-- Built as part of my coursework learning data analysis
-- Thanks to everyone who helped me learn Python and pandas!
+- Built as part of my bootcamp learning data analysis
+
 
 ---
 
