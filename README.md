@@ -1,6 +1,6 @@
 # Online Retail Transaction Analysis 🛒
 
-A data analysis project where I dig into over 500,000 e-commerce transactions to answer real business questions about customers, products, and sales.
+A data analysis project where I dig into over 500,000+ e-commerce transactions to answer real business questions about customers, products and sales.
 
 ---
 
